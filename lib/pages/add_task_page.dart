@@ -4,16 +4,11 @@ import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
 import 'package:open_filex/open_filex.dart';
 import 'package:uuid/uuid.dart';
-import '../models/task_model.dart';
-import '../utils/constants.dart';
-import '../utils/task_service.dart';
+import 'package:student_task_manager/models/task_model.dart';
+import 'package:student_task_manager/utils/constants.dart';
+import 'package:student_task_manager/utils/task_service.dart';
 
-// ─────────────────────────────────────────────────────────────────────────────
-// NOTE: file_picker was removed because it is broken across multiple Flutter
-// SDK versions (linux/macos/windows plugin errors). Attachments now use
-// image_picker only — maintained by the Flutter team and fully stable.
-// Users can attach photos from camera or gallery.
-// ─────────────────────────────────────────────────────────────────────────────
+
 
 /// Add a new task OR edit an existing one.
 /// Pass [existingTask] to enter edit mode.
