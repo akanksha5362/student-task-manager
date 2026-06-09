@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../models/task_model.dart';
+import 'package:student_task_manager/models/task_model.dart';
 import 'constants.dart';
 
 /// All SharedPreferences CRUD operations for [Task] objects,
