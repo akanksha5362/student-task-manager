@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        internal app files directory
+        maps to: /data/data/<package>/files/
+        needed for: saving files inside the app's private storage
+    -->
+    <files-path
+        name="files"
+        path="." />
+
+    <!--
+        internal app cache directory
+        maps to: /data/data/<package>/cache/
+        needed for: image_picker stores temp camera images here
+    -->
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!--
+        external storage root
+        maps to: /sdcard/ or /storage/emulated/0/
+        needed for: reading images from Downloads, DCIM, etc.
+    -->
+    <external-path
+        name="external_files"
+        path="." />
+
+    <!--
+        external files directory (app-specific)
+        maps to: /sdcard/Android/data/<package>/files/
+        needed for: some image_picker versions write here
+    -->
+    <external-files-path
+        name="external_app_files"
+        path="." />
+
+    <!--
+        external cache directory
+        maps to: /sdcard/Android/data/<package>/cache/
+        needed for: camera output on some manufacturers (Samsung, Xiaomi)
+    -->
+    <external-cache-path
+        name="external_cache"
+        path="." />
+
+</paths>
