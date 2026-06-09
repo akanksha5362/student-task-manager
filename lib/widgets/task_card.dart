@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import '../models/task_model.dart';
-import '../utils/constants.dart';
+import 'package:student_task_manager/models/task_model.dart';
+import 'package:student_task_manager/utils/constants.dart';
 
 /// A single task list item with:
 ///  • Animated circular checkbox — tap to mark done/pending instantly
